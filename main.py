@@ -30,6 +30,7 @@ print("ASCII art display here!")
 which_art = input("Do you want to see art 1 or art 2?: ")
 
 if which_art == "1":
+    print("This is a deer. ")
     print('''
     __.------~~~-.
 ,'/             `\
@@ -39,6 +40,7 @@ if which_art == "1":
    "   "   "
     ''')
 else:
+    print("This is dunking. ")
     print('''            ________
     o      |   __   |
       \_ O |  |__|  |
