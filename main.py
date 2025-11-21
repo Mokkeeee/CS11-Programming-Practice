@@ -1,5 +1,5 @@
 print("Problem 1 below")
-
+print("This is the circle area calculator! ")
 radius = input("What is the raidus of the circle? ")
 radius = int(radius)
 type_of_radius = type(radius)
@@ -11,6 +11,7 @@ print("***********************************")
 
 
 print("Problem 2 Below")
+print("This is the expression solver for (a-b)+(a*b) ")
 
 a = int(input("What is the value for a? "))
 b = int(input("What is the value for b? "))
@@ -22,13 +23,15 @@ print("Here is the answer: " + str(answer))
 print("***********************************")
 
 
-print("problem 3 below")
+print("Problem 3 Below")
+print("This is the free art loader! ")
 
 print("ASCII art display here!")
 which_art = input("Do you want to see art 1 or art 2?: ")
 
 if which_art == "1":
-    print('''  __.------~~~-.
+    print('''
+    __.------~~~-.
 ,'/             `\
 " \  ,..__ | ,_   `\_,
    >/|/   ~~\||`\(`~,~'
@@ -36,4 +39,11 @@ if which_art == "1":
    "   "   "
     ''')
 else:
-    print('''this is the else''')
+    print('''            ________
+    o      |   __   |
+      \_ O |  |__|  |
+   ____/ \ |___WW___|
+   __/   /     ||
+               ||
+               ||
+_______________||________________''')
