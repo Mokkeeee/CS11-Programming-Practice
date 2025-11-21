@@ -28,8 +28,12 @@ print("ASCII art display here!")
 which_art = input("Do you want to see art 1 or art 2?: ")
 
 if which_art == "1":
-    print('''hi
-    this is a string
+    print('''  __.------~~~-.
+,'/             `\
+" \  ,..__ | ,_   `\_,
+   >/|/   ~~\||`\(`~,~'
+   | `\     /'|   \_;
+   "   "   "
     ''')
 else:
     print('''this is the else''')
